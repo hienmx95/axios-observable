@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      "@react3l/axios-observable@1.1.4",
+      "I:\\Project\\Lead magnet\\Code\\crm-fe"
+    ]
+  ],
+  "_from": "@react3l/axios-observable@1.1.4",
+  "_id": "@react3l/axios-observable@1.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-jG5ONd2x219KRRFnj7xJV3Er10JRWqQbjtBJWs40PZRAXtyJpTcOMjCgaRKkEn4T5a+KxjAQ6dSfJ3MMXLBMFg==",
+  "_location": "/@react3l/axios-observable",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@react3l/axios-observable@1.1.4",
+    "name": "@react3l/axios-observable",
+    "escapedName": "@react3l%2faxios-observable",
+    "scope": "@react3l",
+    "rawSpec": "1.1.4",
+    "saveSpec": null,
+    "fetchSpec": "1.1.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://npm.pkg.github.com/download/@react3l/axios-observable/1.1.4/5c8fdd02c5d6de6debc09ebde209adebdba4fc7bf1db5b6102314530fc6db717",
+  "_spec": "1.1.4",
+  "_where": "I:\\Project\\Lead magnet\\Code\\crm-fe",
+  "author": {
+    "name": "Siyang Kern Zhao",
+    "email": "siyangkernzhao@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/react3l/axios-observable/issues"
+  },
+  "description": "make axios return Observable as opposed to Promise",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "axios": "^0.19.2",
+    "rxjs": "^6.6.2",
+    "typescript": "^3.9.7"
+  },
+  "homepage": "https://github.com/react3l/axios-observable#readme",
+  "keywords": [
+    "axios",
+    "observable",
+    "rxjs",
+    "ajax",
+    "http"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@react3l/axios-observable",
+  "peerDependencies": {
+    "axios": "*",
+    "rxjs": "*"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react3l/axios-observable.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prebuild": "rm -rf dist/"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.1.4"
+}

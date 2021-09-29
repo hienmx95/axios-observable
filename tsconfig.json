@@ -1,0 +1,20 @@
+{
+  "include": [
+    "lib/**/*"
+  ],
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "typeRoots": [
+      "./node_modules/@types/"
+    ]
+  }
+}
